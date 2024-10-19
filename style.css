@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+margin: 0;
+}
+body{
+    background-color: rgb(85, 121, 139);
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(245, 245, 220, 0.96);
+
+}
+.nav h2{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.home b{
+    position: relative;
+    left: 800px;
+    cursor: pointer;
+
+
+}
+.home :hover{
+    border-bottom: solid black 1px;
+}
+.edu b{
+    position: relative;
+    left: 950px;
+    cursor: pointer;
+}
+.edu :hover{ border-bottom: solid black 1px;}
+
+.conta b{
+
+    position: relative;
+    left: 1150px;
+    cursor: pointer;
+}
+.conta :hover{
+    border-bottom: solid black 1px;
+}
+.profile{
+    height: 350px;border-radius: 50%;
+    border: solid wheat;
+    position: relative;
+    left: 250px;
+    top: 90px;
+
+}
+.one {
+    color:white;
+    font-size: 60px;
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    
+}
+.one b{
+    color: black;
+    font-size: 90px;
+}
+
+.two{
+
+    color:white;
+    font-size: 60px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    
+}
+.two b{
+    color: rgb(240, 149, 92);
+    font-size: 100px;
+    font-style: initial;
+}
+.tre{
+    color:white;
+    font-size: 80px;
+    position: absolute;
+    left: 800px;
+    top: 400px;  
+}
+body{
+    height: 2200px;
+}
+.section img{
+position: absolute;
+left: 900px;
+top: 800px;
+height: 400px;
+}
+.section p{
+height: 400px;
+width: 600px;
+position: absolute;
+font-size: 30px;
+top: 800px;
+left: 60px;
+
+}
+.section p b{
+    color: rgb(53, 237, 175);
+    font-size: 80px;
+}
+.section dl{
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+    font-size: 30px;
+    color: white;
+}
+.section h1{
+
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    border-bottom: solid rgb(53, 237, 175);
+
+}
+.tani
+{
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+    font-size: 30px;
+    color: white;
+}
+
+.talt{
+
+    position: absolute;
+    top: 1300px;
+    left: 700px;
+    font-size: 30px;
+    color: white;    
+}
+.aff{
+
+position: absolute;
+top: 1500px;
+
+}
+.home1 {
+
+
+
+    position: absolute;
+    left: 500px;
+
+}
+.ig{
+    height: 100px;
+    position: absolute;
+    top: 2000px;
+    left: 400px;
+    cursor: pointer;
+}
+.in{
+    height: 100px;
+    position: absolute;
+    top: 2000px;
+    left: 800px;
+    cursor: pointer;
+}
+.wh{
+    height: 100px;
+    position: absolute;
+    top: 2000px;
+    left: 1200px;
+    cursor: pointer;
+}
+.here{
+    position: absolute;
+    top: 1700px;
+    left: 500px;
+    font-size: 70px;
+    
+}
+.here b{
+
+    font-size: 110px;
+color: rgb(53, 237, 175);
+;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+    background-color: lightblue;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+.nav h2{
+  position: absolute;
+    font-size: 15px;
+    top: 10px;
+    left: 10px;
+}
+.profile{
+height: 100px;
+position: absolute;
+left: 0px;
+}
+.one{
+position: absolute;
+left: 20px;
+font-size: 40px;
+    
+}
+.one b{
+    font-size: 40px;
+}
+.two{
+position: absolute;
+left: 20px;
+top: 250px;
+font-size: 40px;
+
+
+}
+.two b{
+    font-size: 80px
+}
+
+.tre{
+    position: absolute;
+left: 20px;
+
+font-size: 50px;
+
+}
+.section img{
+    height: 150px;
+    position: absolute;
+    left:150px ;
+    top: 600px;
+}
+.section p{
+
+    width:  270px;
+    position: absolute;
+    left: 5px;
+    top: 700px;
+    font-size: 20px;
+}
+.section h1{
+    position: absolute;
+    left: 10px;
+    top: 1100px;
+}
+.section dl{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 1150px;
+}
+.tani{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 1300px;
+
+}
+.talt{  font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 1460px;}
+ 
+.aff{
+    height: 250px;
+    position: absolute;
+    top: 1575px;
+    left: -40px;
+}
+ .here{
+    position: absolute;
+    left: 10px;
+    top: 1750px;
+
+ }
+ .here b{
+
+    font-size: 80px;
+ }
+ .ig{
+
+    position: absolute;
+    left: 0px;
+
+
+}
+.in{
+    position: absolute;
+    left: 100px;  
+}
+.wh{
+    position: absolute;
+    left: 200px;
+}
+.home1 b{
+    position: relative;
+    left: 500px;
+    top: 50px;
+    cursor: pointer;
+}
+.edu b{
+    position: relative;
+    left: 90px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.conta b{
+    position: relative;
+    left: 180px;
+    top: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+    }
